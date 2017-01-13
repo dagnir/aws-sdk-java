@@ -40,7 +40,7 @@ public interface AmazonEC2 {
      *
      * @see RegionUtils#getRegionsForService(String)
      */
-    String ENDPOINT_PREFIX = "ec2";
+    public String ENDPOINT_PREFIX = "ec2";
 
     /**
      * Overrides the default endpoint for this client ("https://ec2.us-east-1.amazonaws.com"). Callers can use this
