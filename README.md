@@ -98,7 +98,7 @@ Once you check out the code from GitHub, you can build it using Maven. To disabl
 in the build, use:
 
 ```sh
-mvn clean install -Dgpg.skip=true
+mvn clean install
 ```
 
 ## Supported Versions
