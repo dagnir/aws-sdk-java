@@ -228,5 +228,4 @@ public class AbstractAWSKMS implements AWSKMS {
     public com.amazonaws.ResponseMetadata getCachedResponseMetadata(com.amazonaws.AmazonWebServiceRequest request) {
         throw new java.lang.UnsupportedOperationException();
     }
-
 }
