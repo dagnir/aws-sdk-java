@@ -1,4 +1,4 @@
-# AWS SDK for Java [![Build Status](https://travis-ci.org/aws/aws-sdk-java.png?branch=master)](https://travis-ci.org/aws/aws-sdk-java)
+# AWS SDK for Java [![Build Status](https://travis-ci.org/dagnir/aws-sdk-java.svg?branch=master)](https://travis-ci.org/dagnir/aws-sdk-java)
 
 The **AWS SDK for Java** enables Java developers to easily work with [Amazon Web Services][aws] and
 build scalable solutions with Amazon S3, Amazon DynamoDB, Amazon Glacier, and more. You can get
