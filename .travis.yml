@@ -1,4 +1,8 @@
 language: java
+addons:
+  hosts:
+    - javasdk
+  hostname: javasdk
 # The cross product of the jdk and env settings form the matrix of builds Travis will run.
 jdk:
   - openjdk7
@@ -20,9 +24,6 @@ matrix:
     - jdk: oraclejdk8
       env: MODULES_TO_SKIP=\!aws-java-sdk-osgi,\!aws-java-sdk-code-generator,\!aws-java-sdk-codegen-maven-plugin,\!aws-java-sdk-opensdk MAVEN_OPTS=-XX:MaxPermSize=256m
 
-notifications:
-  email:
-    - github-awsforjava@amazon.com
 install: /bin/true
 sudo: required
 dist: precise
