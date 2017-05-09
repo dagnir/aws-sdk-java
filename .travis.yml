@@ -1,8 +1,8 @@
 language: java
-addons:
-  hosts:
-    - javasdk
-  hostname: javasdk
+# addons:
+#   hosts:
+#     - javasdk
+#   hostname: javasdk
 # The cross product of the jdk and env settings form the matrix of builds Travis will run.
 jdk:
   - openjdk7
@@ -26,5 +26,5 @@ matrix:
 
 install: /bin/true
 sudo: required
-dist: precise
+dist: trusty
 script: mvn install -pl ${MODULES_TO_SKIP}
