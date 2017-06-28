@@ -4,6 +4,6 @@ jdk:
   - oraclejdk7
 
 sudo: false
-dist: trusty
+dist: precise
 
 script: mvn install
