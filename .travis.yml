@@ -5,5 +5,5 @@ jdk:
 
 sudo: false
 dist: precise
-
+install: /bin/true
 script: mvn install
